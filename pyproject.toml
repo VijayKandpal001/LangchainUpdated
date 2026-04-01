@@ -6,14 +6,23 @@ readme = "README.md"
 requires-python = ">=3.10,<3.13"
 
 dependencies = [
+    "chromadb>=1.5.5",
+    "faiss-cpu>=1.13.2",
     "ipykernel>=7.2.0",
     "langchain>=1.2.13",
-    "langchain-checkpoint",
     "langchain-community>=0.4.1",
+    "langchain-core>=1.2.20",
     "langchain-google-genai>=4.2.1",
     "langchain-google-vertexai>=3.2.2",
     "langchain-groq>=1.1.2",
     "langchain-openai>=1.1.11",
+    "numpy>=2.2.6",
+    "onnxruntime==1.23.1",
     "pydantic>=2.12.5",
+    "pydf>=12",
+    "pymupdf>=1.27.2.2",
     "python-dotenv>=1.2.2",
+    "scikit-learn>=1.7.2",
+    "sentence-transformers>=5.3.0",
+    "uuid>=1.30",
 ]
