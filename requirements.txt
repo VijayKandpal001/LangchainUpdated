@@ -6,3 +6,13 @@ langchain-google-genai
 python-dotenv
 ipykernel
 pydantic
+langchain-core
+langchain-community
+pydf
+pymupdf
+sentence-transformers
+faiss-cpu
+chromadb
+numpy
+scikit-learn
+uuid
